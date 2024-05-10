@@ -4,7 +4,7 @@
         <article class="info">
             <h2 class="title">{{ title }}</h2>
             <p class="desc"> {{ description }}</p>
-
+            
         </article>
     </section>
 </template>
@@ -44,6 +44,7 @@ export default {
 
 img {
     height: 150px;
+    margin-bottom: 10px;
 }
 
 
