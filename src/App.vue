@@ -23,7 +23,8 @@
       :array="Content"
     ></ud>
   </div>
-  <div v-if="CurrentStatus == 'API'"></div>
+  <div v-if="CurrentStatus == 'API'">
+  </div>
 </template>
 
 <script>

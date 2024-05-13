@@ -12,7 +12,6 @@ html,body{
   font-weight: normal;
   display: flex;
   flex-direction: column;
-
 }
 
 .green {
@@ -43,4 +42,17 @@ html,body{
 }
 *{
   margin: 0px;
+  font-family:
+  Inter,
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  sans-serif;
 }
