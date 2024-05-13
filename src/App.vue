@@ -43,7 +43,7 @@ export default {
         {
           name: 'Dead Cells',
           description:
-            'Dead Cells es un videojuego híbrido entre el género de exploración de mazmorras o roguelite, y metroidvania, creando su propio género, “roguevania”, desarrollado por el estudio Motion Twin.1​ El juego fue lanzado para PC, Mac, Linux, Playstation 4, Nintendo Switch y Xbox One,1​ siendo lanzado en la plataforma de Steam el 6 de agosto de 2018, bajo la categoría de juego de acción e indie.',
+            'Dead Cellss es un videojuego híbrido entre el género de exploración de mazmorras o roguelite, y metroidvania, creando su propio género, “roguevania”, desarrollado por el estudio Motion Twin.1​ El juego fue lanzado para PC, Mac, Linux, Playstation 4, Nintendo Switch y Xbox One,1​ siendo lanzado en la plataforma de Steam el 6 de agosto de 2018, bajo la categoría de juego de acción e indie.',
           image: '/src/components/img/Dead Cells.jpg'
         },
         {
