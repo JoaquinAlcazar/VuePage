@@ -9,21 +9,15 @@
         <p class="crud">Borrar</p>
         <p class="crud">Actualizar</p>
       </article>
-
-      <article v-for="objeto in array" class="table">
+      <article v-for="objeto in array" class="table" id="content" >
         <p class="name">{{ objeto.name }}</p>
-        <p class="desc">{{ objeto.description }}</p>
+        <textarea type="text" class="desc" :value="objeto.description"></textarea>
         <p class="img">{{ objeto.image }}</p>
         <p class="crud"><button>Borrar</button></p>
         <p class="crud"><button>Actualizar</button></p>
       </article>
     </section>
   </div>
-
-  <tr></tr>
-
-  <p>{{ title }}</p>
-  <p>{{ description }}</p>
 </template>
 <script>
 export default {
@@ -40,42 +34,51 @@ export default {
   padding: 0px;
   margin: 0px;
   word-wrap: break-word;
-  border: 1px solid black;
+}
+div{
+  width: 100%;
+  overflow-x: auto;
+}
+section{
+  width: 1400px ;
+
 }
 
-p{
-    text-align: center;
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center;
+p {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+}
+
+textarea{
+  outline: none;
+  border: none;
 }
 
 .table {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 1px;
+  margin-top: 10px
 }
 .name {
-  width: 10%;
+  width: 200px;
   word-break: break-all;
-
-  
 }
 .desc {
-  width: 50%;
+  width: 1000px;
   overflow-y: auto;
 }
 .img {
-  width: 20%;
+  width: 200px;
   word-break: break-all;
 }
 .crud {
-  width: 10%;
+  width: 200px;
   word-break: break-all;
-
 }
-
 </style>
